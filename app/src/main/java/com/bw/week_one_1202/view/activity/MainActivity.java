@@ -89,4 +89,7 @@ public class MainActivity extends BaseActivity {
     protected int bindLayoutid() {
         return R.layout.activity_main;
     }
+    public void tiao(){
+        viewPager.setCurrentItem(1);
+    }
 }
